@@ -46,8 +46,8 @@
   --ifm-color-primary-lightest: #8c61ff;
 
   /* Background colors */
-  --ifm-background-color: #DFDFF0;
-  --ifm-background-surface-color: #F0F2FA;
+  --ifm-background-color: #F5F7FF;
+  --ifm-background-surface-color: #ffffff;
 
   /* Text colors */
   --ifm-font-color-base: #010101;
@@ -70,7 +70,7 @@
   --ifm-navbar-shadow: 0 1px 2px 0 rgba(87, 36, 255, 0.1);
 
   /* Footer */
-  --ifm-footer-background-color: #010101;
+  --ifm-footer-background-color: #F5F7FF;
 }
 
 /* Dark Mode - Adjusted for better contrast */
@@ -99,7 +99,7 @@
   --ifm-navbar-background-color: #25252d;
 
   /* Footer dark */
-  --ifm-footer-background-color: #010101;
+  --ifm-footer-background-color: #25252d;
 }
 
 /* Blog customization - make titles black */
@@ -125,4 +125,79 @@ article h2 a:hover,
 .blog-wrapper .tag,
 .blog-wrapper .badge {
   background-color: #ffffff !important;
+}
+
+/* Footer styling - simple centered layout like Netlify */
+.footer {
+  background-color: #F5F7FF !important;
+  border-top: 1px solid #e8e8e8 !important;
+  padding: 2rem 0 !important;
+  text-align: center;
+}
+
+.footer__links {
+  justify-content: center !important;
+  margin-bottom: 0 !important;
+}
+
+.footer__col {
+  text-align: center !important;
+}
+
+.footer__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer__link-item {
+  color: #666 !important;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: #5724FF !important;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  color: #666 !important;
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+.footer svg {
+  color: #666;
+  transition: color 0.2s ease;
+}
+
+.footer svg:hover {
+  color: #5724FF;
+}
+
+[data-theme='dark'] .footer {
+  background-color: #25252d !important;
+  border-top-color: #3a3a44 !important;
+}
+
+[data-theme='dark'] .footer__link-item {
+  color: #b0b0b0 !important;
+}
+
+[data-theme='dark'] .footer__link-item:hover {
+  color: #7447ff !important;
+}
+
+[data-theme='dark'] .footer__copyright {
+  color: #b0b0b0 !important;
+}
+
+[data-theme='dark'] .footer svg {
+  color: #b0b0b0;
+}
+
+[data-theme='dark'] .footer svg:hover {
+  color: #7447ff;
 }
