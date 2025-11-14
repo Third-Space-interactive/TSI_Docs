@@ -16,12 +16,23 @@ A complete navigation system for architectural visualization projects, featuring
 
 [Get Started with ArchViz Navigation →](./archviz-navigation)
 
+### AWS Pixel Streaming
+
+Comprehensive guides for deploying Unreal Engine Pixel Streaming applications on AWS infrastructure, including cross-compilation from Windows, GPU instance setup, and production deployment configurations.
+
+[Get Started with AWS Pixel Streaming →](./aws-pixel-streaming)
+
 ## Getting Help
 
 If you need assistance or have questions about any of our templates, please reach out through our [main website](https://thirdspaceinteractive.ca).
 
 ## Quick Links
 
+### Templates
 - [ArchViz Navigation Template](./archviz-navigation)
 - [Basic Navigation Setup](./archviz-navigation/basic-navigation/setup)
 - [Advanced Navigation Setup](./archviz-navigation/advanced-navigation/setup)
+
+### Deployment & Infrastructure
+- [AWS Pixel Streaming](./aws-pixel-streaming)
+- [Linux Setup Guide](./aws-pixel-streaming/linux-setup)

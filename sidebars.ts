@@ -45,6 +45,15 @@ const sidebars: SidebarsConfig = {
         'archviz-navigation/post-processing-setup',
       ],
     },
+    {
+      type: 'category',
+      label: 'AWS Pixel Streaming',
+      collapsed: false,
+      items: [
+        'aws-pixel-streaming/index',
+        'aws-pixel-streaming/linux-setup',
+      ],
+    },
   ],
 };
 
