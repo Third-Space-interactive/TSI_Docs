@@ -6,7 +6,12 @@
 }
 
 .featuresRow {
-  gap: 2rem;
+  margin: 0 -1rem;
+}
+
+.featuresRow > div {
+  padding: 0 1rem;
+  margin-bottom: 2rem;
 }
 
 .featureCard {
@@ -33,6 +38,12 @@
   font-size: 3rem;
   margin-bottom: 1rem;
   display: block;
+}
+
+.featureIcon img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
 }
 
 .featureTitle {

@@ -1,5 +1,7 @@
 # ArchViz Navigation Template
 
+![ArchViz-Nav Thumbnail](/img/archviz-nav/template-thumbnail.webp)
+
 Thank you for purchasing the ArchViz Navigation Template! This comprehensive navigation system is designed specifically for architectural visualization projects with support for both desktop and mobile platforms.
 
 ## Overview
@@ -21,23 +23,36 @@ All navigation is set up for Desktop and mobile use out of the box. Touch screen
 
 ## What's Included
 
+![Two Templates in One](/img/archviz-nav/2-templates.webp)
+
 ### Basic Navigation
+
 - Third-person and first-person camera modes
 - Camera animations for mode switching
 - Spring arm-based camera system
 - Focus on center screen navigation
 
 ### Advanced Navigation
+
 - Google Earth-style "free roam" navigation
 - Dynamic anchor point system
 - Large-scale environment support
 - Smooth exploration controls
 
+![Third Person First Person](/img/archviz-nav/camera-modes.webp)
+
 ### Selection System
+
 - `BP_SelectionManager` blueprint
 - Hover-to-highlight functionality
 - Object selection with camera focus
 - Orbit lock around selected objects
+
+![Selection Functionality](/img/archviz-nav/selection-demo.webp)
+
+### Mobile Navigation Support
+
+![Mobile Navigation](/img/archviz-nav/mobile-demo.webp)
 
 ## Getting Started
 

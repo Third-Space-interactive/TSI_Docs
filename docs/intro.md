@@ -9,6 +9,9 @@ Welcome to the Third Space Interactive documentation portal. Here you'll find co
 ## Available Templates
 
 ### ArchViz Navigation Template
+
+![ArchViz-Nav Thumbnail](/img/archviz-nav/template-thumbnail.webp)
+
 A complete navigation system for architectural visualization projects, featuring both basic and advanced navigation modes optimized for desktop and mobile pixel streaming scenarios.
 
 [Get Started with ArchViz Navigation →](./archviz-navigation)
