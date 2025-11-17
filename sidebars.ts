@@ -17,7 +17,7 @@ const sidebars: SidebarsConfig = {
     'intro',
     {
       type: 'category',
-      label: 'ArchViz Navigation Template',
+      label: 'UE5 Navigation Template',
       collapsed: false,
       items: [
         'archviz-navigation/index',
@@ -42,7 +42,7 @@ const sidebars: SidebarsConfig = {
             'archviz-navigation/selection-system/index',
           ],
         },
-        'archviz-navigation/post-processing-setup',
+        'archviz-navigation/troubleshooting',
       ],
     },
     {

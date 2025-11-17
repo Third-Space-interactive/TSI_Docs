@@ -21,10 +21,10 @@ const FeatureList: FeatureItem[] = [
     link: "/docs/intro",
   },
   {
-    title: "ArchViz Navigation",
+    title: "UE5 Navigation Template",
     icon: "/img/icons/archviz-nav.png",
     description:
-      "Learn how to use our ArchViz Navigation template for your architectural visualization projects.",
+      "Learn how to use our UE5 Navigation template for your architectural visualization projects.",
     link: "/docs/archviz-navigation",
   },
   {
@@ -37,17 +37,13 @@ const FeatureList: FeatureItem[] = [
 ];
 
 function Feature({ title, icon, description, link, isExternal }: FeatureItem) {
-  const isImageIcon = icon.startsWith('/') || icon.includes('.');
+  const isImageIcon = icon.startsWith("/") || icon.includes(".");
 
   return (
     <div className={clsx("col col--4")}>
       <Link to={link} className={styles.featureCard}>
         <div className={styles.featureIcon}>
-          {isImageIcon ? (
-            <img src={icon} alt={`${title} icon`} />
-          ) : (
-            icon
-          )}
+          {isImageIcon ? <img src={icon} alt={`${title} icon`} /> : icon}
         </div>
         <Heading as="h3" className={styles.featureTitle}>
           {title}

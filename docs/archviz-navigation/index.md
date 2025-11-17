@@ -1,8 +1,10 @@
-# ArchViz Navigation Template
+# UE5 Navigation Template
 
-![ArchViz-Nav Thumbnail](/img/archviz-nav/template-thumbnail.webp)
+## Google Earth Style Controls for Architectural Visualization
 
-Thank you for purchasing the ArchViz Navigation Template! This comprehensive navigation system is designed specifically for architectural visualization projects with support for both desktop and mobile platforms.
+![UE5 Navigation Template Thumbnail](/img/archviz-nav/template-thumbnail.webp)
+
+Thank you for purchasing the **UE5 Navigation Template**! This comprehensive navigation system features Google Earth-style controls designed specifically for architectural visualization projects with support for both desktop and mobile platforms.
 
 ## Overview
 
@@ -61,3 +63,16 @@ Choose the navigation mode that best fits your project:
 - [Basic Navigation Setup →](./basic-navigation/setup)
 - [Advanced Navigation Setup →](./advanced-navigation/setup)
 - [Selection System Configuration →](./selection-system)
+- [Troubleshooting →](./troubleshooting)
+
+### Documentation Resources
+
+- **Video Tutorial:** Original setup video (linked in template description)
+- **Online Docs:** [docs.thirdspaceinteractive.ca](https://docs.thirdspaceinteractive.ca)
+- **FAB Product Page:** Check Q&A section for common questions
+
+### Community Support
+
+- **Unreal Forums:** Search for "UE5 Navigation Template, Google Earth Style Controls"
+- **FAB Reviews:** Check product reviews for user tips
+- **Discord:** Join Third Space Interactive community [Discord Channel](https://discord.gg/8pVjBjCe)
